@@ -101,7 +101,7 @@ class _ProfileState extends State<Profile> {
                 borderRadius: BorderRadius.circular(20),
                 color: Colors.white,
               ),
-              child: const Align(
+              child: Align(
                 alignment: Alignment(0, 0.5),
                 child: Text("PROFILE NAME"),
               ),
