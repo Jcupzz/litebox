@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:litebox/Home.dart';
 import 'package:litebox/profile.dart';
+import 'package:litebox/login.dart';
+import 'package:litebox/signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const Home(),
+      home: LogIn(),
     );
   }
 }
